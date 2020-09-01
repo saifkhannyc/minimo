@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/*global css section*/
+
+body {
+ font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+input,
+button {
+ font-family: 'Playfair Display', serif;
+}
+
+.container {
+ width: 1140px;
+ margin: 0 auto;
+}
+
+a:hover,
+a {
+ text-decoration: none;
+ text-transform: uppercase;
+}
+
+/*header section css here*/
+.header {
+ display: flow-root;
+ width: 100%;
+
+}
+
+.main-header {
+ width: 100%;
+ float: left;
+ padding: 30px 0px;
+}
+
+.logo {
+ width: 30%;
+ float: left;
+}
+
+.menu {
+ width: 70%;
+ float: right;
+ text-align: right;
+}
+
+.menu ul li {
+ list-style: none;
+ display: inline-block;
+ margin-left: 70px;
+
+}
+
+.menu ul li a:hover {
+ background-color: black;
+ color: white;
+}
+
+.menu ul li a {
+ color: black;
+ text-transform: uppercase;
+}
+
+/*banner post css here*/
+.banner-post {
+ width: 100%;
+ display: flow-root;
+}
+
+.post img {
+ width: 100%;
+}
+
+
+.post-details {
+ margin: 80px;
+}
+
+.post-details span {
+ text-transform: uppercase;
+ color: #b4ad9e;
+}
+
+.post-details h1 {
+ margin: 18px 0;
+ font-weight: 600;
+}
+
+.post-details p {
+ margin-bottom: 30px;
+}
+
+/*blog gallery secton css*/
+
+.blog-gallery {
+ width: 100%;
+ display: flow-root;
+}
+
+.gallery {
+ width: 92%;
+ float: left;
+ margin: 80px;
+}
+
+.left {
+ width: 46%;
+ float: left;
+ margin: 20px;
+}
+
+.right {
+ width: 46%;
+ float: right;
+ margin: 20px;
+}
+
+.post-body img {
+ margin-bottom: 26px;
+ width: 100%;
+}
+
+.post-body h1 {
+ margin: 26px 0;
+}
+
+.post-body span {
+ text-transform: uppercase;
+ color: #b4ad9e;
+}
+
+.post-body p {
+ margin-bottom: 30px;
+}
+
+/*subscription section css*/
+
+.subscribe {
+ width: 100%;
+ display: flow-root;
+ background-color: #f0f0f0;
+ text-align: center;
+ padding: 80px;
+}
+
+.title {
+ margin-bottom: 30px;
+}
+
+.title h1 {
+ font-weight: 400;
+}
+
+form {
+ position: relative;
+}
+
+form input {
+ width: 30%;
+ padding: 20px 0;
+ border: none;
+ background: transparent;
+ border-bottom: 2px solid black;
+}
+
+form input:focus {
+ outline: none;
+}
+
+form i {
+ position: absolute;
+ top: 20px;
+ right: 35%;
+}
+
+
+/*load more css section*/
+.load-more {
+ display: flow-root;
+ padding: 80px 0;
+ text-align: center;
+
+}
+
+.button button {
+ padding: 20px 35px;
+ background-color: transparent;
+ border-radius: none;
+ outline: none;
+ border: 1px solid black;
+ font-size: 18px;
+}
+
+.button button:hover {
+ cursor: pointer;
+ background-color: #f0f0f0;
+ color: black;
+ transition: all 0.5s ease-in-out;
+}
+
+/*footer part css here*/
+.footer {
+ width: 100%;
+ display: flow-root;
+ background-color: #f0f0f0;
+}
+
+.footer-body {
+ width: 100%;
+ float: left;
+ padding: 30px 0;
+}
+
+.footer-left {
+ width: 50%;
+ float: left;
+ text-align: left;
+}
+
+.footer-right {
+
+ width: 50%;
+ float: right;
+ text-align: right;
+}
+
+ul li {
+ list-style: none;
+ display: inline-block;
+}
+
+.footer-left ul li {
+
+ margin-right: 21px;
+}
+
+.footer-right ul li {
+
+ margin-left: 30px;
+
+}
